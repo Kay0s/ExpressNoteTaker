@@ -1,6 +1,7 @@
 // ===============================================================================
 // DEPENDENCIES
 // ===============================================================================
+const express = require("express");
 var path = require("path");
 
 // ===============================================================================
@@ -8,6 +9,8 @@ var path = require("path");
 // ===============================================================================
 
 module.exports = function (app) {
+  app.use(express.static(path.join(__dirname, "../public")));
+
   // HTML GET Requests
   // ---------------------------------------------------------------------------
 
@@ -15,12 +18,8 @@ module.exports = function (app) {
     res.sendFile(path.join(__dirname, "../public/notes.html"));
   });
 
-  app.get("/deleted", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/deleted.html"));
-  });
-
   // If no matching route is found default to home
   app.get("*", function (req, res) {
-    res.sendFile(path.join(__dirname, "../public/home.html"));
+    res.sendFile(path.join(__dirname, "../public/index.html"));
   });
 };
