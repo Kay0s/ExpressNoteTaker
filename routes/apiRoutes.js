@@ -3,7 +3,7 @@
 // ===============================================================================
 let notesData = require("../data/db.json");
 const express = require("express");
-var path = require("path");
+let path = require("path");
 
 // ===============================================================================
 // ROUTING
@@ -13,7 +13,7 @@ module.exports = function (app) {
   app.use(express.static(path.join(__dirname, "../public")));
   // API GET Requests
   app.get("/api/notes", (req, res) => {
-    res.json(newNote);
+    res.json(notesData);
   });
 
   // ---------------------------------------------------------------------------
