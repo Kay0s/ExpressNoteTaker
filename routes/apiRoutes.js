@@ -1,10 +1,10 @@
 // ===============================================================================
 // LOAD DATA
 // ===============================================================================
-let notesData = require("../data/db.json");
+let notesData = require("../db/db.json");
 const express = require("express");
 let path = require("path");
-
+const fs = require("fs");
 // ===============================================================================
 // ROUTING
 // ===============================================================================
@@ -21,7 +21,15 @@ module.exports = function (app) {
   // API POST Requests
   // ---------------------------------------------------------------------------
 
-  app.post("/notes", function (req, res) {
-    res.push(notesData);
+  app.post("/api/notes", function (req, res) {
+    notesData.push(req.body);
+    console.log(notesData);
+    fs.writeFile("./db/db.json", JSON.stringify(notesData), (err) => {
+      if (err) throw err;
+      res.json(notesData);
+    });
   });
 };
+
+//splice
+//update item
