@@ -38,6 +38,7 @@ module.exports = function (app) {
     });
   });
 
+  // API DELETE Requests
   app.delete("/api/notes/:id", (req, res) => {
     fs.readFile("./db/db.json", (err, data) => {
       if (err) throw err;
@@ -55,5 +56,3 @@ module.exports = function (app) {
     });
   });
 };
-
-// ---------------------------------------------------------------------------
