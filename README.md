@@ -24,14 +24,14 @@ that I can organize my thoughts and keep track of tasks I need to complete.
 To dynamically and quickly create notes data, Express and Heroku were utilized to:
 
 - Serve and display a working data base.
-- The user's input was gathered and added as notes which can be delted.
+- The user's input was gathered and added as notes which can be deleted.
 
 ## Installation
 
 1. Create a .gitignore file and include node_modules and .DS store. This ensures that the node_modules directory isn't
    tracked or uploaded to GitHub.
-2. Use the command-line, npm install, to install Inquirer NPM.
-3. To start answering questions to create the HTML file, use the command, node app.js.
+2. Use the command-line, npm install, to install Express.
+3. To start saving notes with Express, use the command, node server.js.
 
 ## Usage
 
