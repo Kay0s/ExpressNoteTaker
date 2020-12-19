@@ -4,8 +4,8 @@
 
 ## Overview
 
-As a manager, I want to be able to dynamically and quickly create an HTML file with employees' information using answers
-provided from Inquirer NPM.
+As a user, I want to be able to write and save notes. I also want to be able to delete notes I've written before, so
+that I can organize my thoughts and keep track of tasks I need to complete.
 
 ## Table of Contents
 
@@ -21,14 +21,14 @@ provided from Inquirer NPM.
 
 ## Description
 
-To dynamically and quickly create a team HTML page, Inquirer NPM was utilized to:
+To dynamically and quickly create notes data, Express and Heroku were utilized to:
 
-- Generate command-line questions to the user.
-- The user input was gathered and added as information to employee templates to create HTML pages.
+- Serve and display a working data base.
+- The user's input was gathered and added as notes which can be delted.
 
 ## Installation
 
-1. Create a .gitignore file and include node_modules? and .DS store. This ensures that the node_modules directory isn't
+1. Create a .gitignore file and include node_modules and .DS store. This ensures that the node_modules directory isn't
    tracked or uploaded to GitHub.
 2. Use the command-line, npm install, to install Inquirer NPM.
 3. To start answering questions to create the HTML file, use the command, node app.js.
