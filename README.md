@@ -58,6 +58,8 @@ page are rendering.
 
 ## Tools
 
+- HTML
+- CSS
 - JavaScript
 - .gitignore
 - Git Bash
