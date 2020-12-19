@@ -44,7 +44,8 @@ To dynamically and quickly create notes data, Express and Heroku were utilized t
 
 ## Test
 
-![Screenshot of Passed Jest Test](./test.jpg)
+Test the different html pages/position on the local host using Express, to ensure that the data is saving and the HTML
+page are rendering.
 
 ## Deployed
 
