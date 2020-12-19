@@ -76,7 +76,7 @@ page are rendering.
 
 - [Email](hamilton.kristina@gmail.com)
 - [GitHub Profile](https://github.com/Kay0s)
-- [GitHub Repository](https://github.com/Kay0s/https://github.com/Kay0s/TeamGenerator)
+- [GitHub Repository](https://github.com/Kay0s/ExpressNoteTake)
 
 ## License
 
