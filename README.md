@@ -39,8 +39,8 @@ To dynamically and quickly create notes data, Express and Heroku were utilized t
 - fs.writeFile is used to render the HTML.
 - Once the user's information regarding:
   - notes are served:
-- An HTML file with the user's saved notes is created.
-- User's saved notes can be deleted from the db.json.
+- An HTML file with the user's saved notes and unique id is created.
+- User's saved notes can be deleted based on the id in the db.json.
 
 ## Test
 
@@ -68,7 +68,9 @@ page are rendering.
 
 ## Research
 
-- [Inquirer.js - NPM](https://www.npmjs.com/package/inquirer)
+- [Serving static files in Express - Express](https://expressjs.com/en/starter/static-files.html)
+- [Deploying with Git- Heroku](https://devcenter.heroku.com/articles/git)
+- [Use ExpressJS to Get URL and Post Parameters - DigitalOcean](https://www.digitalocean.com/community/tutorials/use-expressjs-to-get-url-and-post-parameters)
 
 ## Questions
 
