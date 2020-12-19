@@ -1,4 +1,4 @@
-# Team HTML File Using Inquirer NPM
+# Note Taker Using Express
 
 ![badge](https://img.shields.io/badge/License-mit-blue)
 
