@@ -44,7 +44,7 @@ To dynamically and quickly create notes data, Express and Heroku were utilized t
 
 ## Test
 
-Test the different html pages/position on the local host using Express, to ensure that the data is saving and the HTML
+Test the different HTML pages/positions on the local host using Express, to ensure that the data is saving and the HTML
 page are rendering.
 
 ## Deployed
@@ -52,9 +52,9 @@ page are rendering.
 - \*[Deployed website](https://blooming-inlet-06982.herokuapp.com/)
 - \*[GitHub Repository](https://github.com/Kay0s/ExpressNoteTaker)
 
-### Screenshot of Inquirer Questions Code
+### Screenshot of API.Routes Code
 
-![Screenshot of Inquirer Questions Code](./codeScreenshot.jpg)
+![Screenshot of API.Routes Code](./codeScreenshot.jpg)
 
 ## Tools
 
