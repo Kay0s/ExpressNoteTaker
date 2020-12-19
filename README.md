@@ -35,13 +35,12 @@ To dynamically and quickly create notes data, Express and Heroku were utilized t
 
 ## Usage
 
-- Inquirer NPM is used to prompt the user to provide information regarding their employee teams to create their HTML
-  pages.
+- Express and Heroku and used to serve and display to the the user web pages to create their HTML ntoes..
 - fs.writeFile is used to render the HTML.
 - Once the user's information regarding:
-  - name, id, email, member's role, then subsequent user role questions are served:
-  - Manager - office, Engineer - Github Username, and Intern - school name.
-- An HTML file with the user's reponses regarding their team is created.
+  - notes are served:
+- An HTML file with the user's saved notes is created.
+- User's saved notes can be deleted from the db.json.
 
 ## Test
 
