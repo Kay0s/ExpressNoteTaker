@@ -50,7 +50,7 @@ To dynamically and quickly create a team HTML page, Inquirer NPM was utilized to
 ## Deployed
 
 - \*[Deployed website](https://blooming-inlet-06982.herokuapp.com/)
-- \*[GitHub Repository](https://github.com/Kay0s/TeamGenerator)
+- \*[GitHub Repository](https://github.com/Kay0s/ExpressNoteTaker)
 
 ### Screenshot of Inquirer Questions Code
 
@@ -59,9 +59,10 @@ To dynamically and quickly create a team HTML page, Inquirer NPM was utilized to
 ## Tools
 
 - JavaScript
-- Inquirer NPM
 - .gitignore
 - Git Bash
+- Heroku
+- Express
 
 ## Research
 
